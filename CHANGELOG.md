@@ -1,5 +1,10 @@
 # 更新记录
 
+## 2026-11-17（四）
+
+- 新增西班牙语翻译第一版（`translations/es.json`）。
+- README 注明日语和西班牙语翻译尚未经过母语者校对。
+
 ## 2026-11-17（三）
 
 - 新增界面翻译：日语第一版（`translations/ja.json`），翻译清单为 `translations.json`。

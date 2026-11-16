@@ -1,6 +1,11 @@
 {
   "languages": [
     {
+      "code": "es",
+      "name": "Español",
+      "url": "es.json"
+    },
+    {
       "code": "ja",
       "name": "日本語",
       "url": "ja.json"
