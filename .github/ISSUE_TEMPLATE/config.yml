@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "App 本身的问题 / Problems with the app itself"
+    url: https://github.com/NishinoAkii/simple_live_N/issues/new/choose
+    about: "内置平台、播放器、设置等问题请到 App 仓库提交 / Built-in platforms, the player and settings belong in the app repository"

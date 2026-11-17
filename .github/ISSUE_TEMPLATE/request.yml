@@ -1,0 +1,34 @@
+name: "新直播源 / New live source"
+description: "希望接入的直播平台 / A platform you would like as a live source"
+title: "[Request] "
+labels:
+  - "enhancement"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        会写脚本的话，欢迎直接提交 Pull Request，编写方法见 [GUIDE.md](https://github.com/NishinoAkii/simple_live_N-sources/blob/main/GUIDE.md)。
+        If you can write the script yourself, a pull request is welcome; see [GUIDE.en.md](https://github.com/NishinoAkii/simple_live_N-sources/blob/main/GUIDE.en.md).
+
+  - type: input
+    id: platform
+    attributes:
+      label: "平台名称和网址 / Platform name and website"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: features
+    attributes:
+      label: "希望支持的功能 / Wanted features"
+      options:
+        - label: "推荐和分类 / Recommendations and categories"
+        - label: "搜索 / Search"
+        - label: "播放 / Playback"
+        - label: "弹幕或聊天 / Danmaku or chat"
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "补充 / Notes"
+      description: "是否需要登录、地区限制、可参考的项目等 / Login needs, region limits, reference projects"

@@ -1,0 +1,25 @@
+name: "翻译问题 / Translation fix"
+description: "译文错误、不自然，或希望新增语言 / A wrong or awkward translation, or a new language"
+title: "[Translation] "
+labels:
+  - "translation"
+body:
+  - type: input
+    id: language
+    attributes:
+      label: "语言 / Language"
+      placeholder: "日本語 (ja)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: strings
+    attributes:
+      label: "需要修改的句子 / Strings to change"
+      description: "现在的译文、建议的译文，以及在 App 中出现的位置 / Current text, suggested text, and where it appears in the app"
+      placeholder: |
+        现在 / Now:
+        建议 / Suggested:
+        位置 / Where:
+    validations:
+      required: true

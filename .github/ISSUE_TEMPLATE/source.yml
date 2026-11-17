@@ -1,0 +1,52 @@
+name: "直播源问题 / Live source problem"
+description: "某个直播源打不开、播不了或缺少功能 / A live source fails or misses something"
+title: "[Source] "
+labels:
+  - "bug"
+body:
+  - type: input
+    id: source
+    attributes:
+      label: "直播源和版本 / Source and version"
+      description: "在 App 的“我的 → 直播源订阅”中查看 / See Me → Live source subscriptions in the app"
+      placeholder: "快手直播 1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: app
+    attributes:
+      label: "App 版本和系统 / App version and system"
+      placeholder: "1.24.0（12400）, Android 14"
+    validations:
+      required: true
+
+  - type: input
+    id: room
+    attributes:
+      label: "直播间 / Room"
+      description: "房间号或链接 / Room ID or link"
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "问题描述 / What happened"
+      description: "包括 App 显示的错误信息 / Include any error message the app shows"
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "日志 / Logs"
+      description: "在“我的 → 其他设置”中开启“调试模式”，重现后导出日志并拖到这里 / Turn on Debug mode under Me → Other settings, reproduce, export the logs and drop them here"
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: "确认 / Checklist"
+      options:
+        - label: "已更新到最新的直播源（“检查更新”） / The source is up to date (Check for updates)"
+          required: true
+        - label: "内容里没有账号、Cookie 等个人信息 / No accounts or cookies are included"
+          required: true
