@@ -1,5 +1,5 @@
 /*
- * simple_liveN 直播源示例
+ * simple_live_N 直播源示例
  *
  * 本文件以虚构平台 example.com 为例，说明直播源脚本的结构、各函数的用途和返回格式，
  * 以及这些数据在平台网页中的查找方法。所有说明均写在注释中。
@@ -12,7 +12,7 @@
  * 相关文件：
  *   - GUIDE.md：编写步骤、数据查找、测试与发布。
  *   - _template.live.js：全部字段和可选功能的完整模板。
- *   - simple_liveN 仓库 doc/live_source_api.md：接口约定。
+ *   - simple_live_N 仓库 doc/live_source_api.md：接口约定。
  *
  * 运行环境：QuickJS，支持 ES2023 与 async/await；没有 DOM、fetch 和 Node 模块。
  * 每次函数调用须在 20 秒内返回；同步代码连续运行超过 10 秒会被中断。

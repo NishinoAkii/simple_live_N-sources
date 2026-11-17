@@ -11,7 +11,7 @@
 | [`sample.js`](sample.js) | 带注释的示例：各函数的用途、返回格式、数据来源和可用的全局对象。建议从这里开始。 |
 | [`_template.live.js`](_template.live.js) | 完整模板，包含全部字段和可选功能。 |
 | [`sources/`](sources) | 已发布的直播源，可作为实际参考。 |
-| [`doc/live_source_api.md`](https://github.com/NishinoAkii/simple_liveN/blob/main/doc/live_source_api.md) | 接口约定，位于 simple_liveN 仓库。 |
+| [`doc/live_source_api.md`](https://github.com/NishinoAkii/simple_live_N/blob/main/doc/live_source_api.md) | 接口约定，位于 simple_live_N 仓库。 |
 
 ## 编写步骤
 
@@ -39,7 +39,7 @@
 
 ## 测试
 
-检查工具位于 simple_liveN 仓库，需要 Dart（或 Flutter 自带的 `dart`）。在 `simple_live_core` 目录中运行：
+检查工具位于 simple_live_N 仓库，需要 Dart（或 Flutter 自带的 `dart`）。在 `simple_live_core` 目录中运行：
 
 ```sh
 dart pub get

@@ -11,7 +11,7 @@ A live source is a JavaScript script (`<key>.live.js`), one file per platform. T
 | [`sample.js`](sample.js) | A commented example: what each function does, the return formats, where the data comes from and which globals are available. Start here. |
 | [`_template.live.js`](_template.live.js) | The full template with every field and optional feature. |
 | [`sources/`](sources) | The published live sources, useful as working examples. |
-| [`doc/live_source_api.md`](https://github.com/NishinoAkii/simple_liveN/blob/main/doc/live_source_api.md) | The interface specification, in the simple_liveN repository. |
+| [`doc/live_source_api.md`](https://github.com/NishinoAkii/simple_live_N/blob/main/doc/live_source_api.md) | The interface specification, in the simple_live_N repository. |
 
 The comments in these files and the specification are in Chinese.
 
@@ -41,7 +41,7 @@ Use only public data visible to guests. Do not bypass a platform's paywalls, mem
 
 ## Testing
 
-The check tool is in the simple_liveN repository and needs Dart (the `dart` that comes with Flutter also works). Run it in the `simple_live_core` directory:
+The check tool is in the simple_live_N repository and needs Dart (the `dart` that comes with Flutter also works). Run it in the `simple_live_core` directory:
 
 ```sh
 dart pub get

@@ -1,8 +1,8 @@
 [简体中文](README.md) | English
 
-# simple_liveN live sources and translations
+# simple_live_N live sources and translations
 
-Live source subscriptions and interface translations for [simple_liveN](https://github.com/NishinoAkii/simple_liveN). Each platform is one `.live.js` script and each language is one translation file, and updates to either reach the app without reinstalling it. Changes are listed in [`CHANGELOG.md`](CHANGELOG.md) (in Chinese).
+Live source subscriptions and interface translations for [simple_live_N](https://github.com/NishinoAkii/simple_live_N). Each platform is one `.live.js` script and each language is one translation file, and updates to either reach the app without reinstalling it. Changes are listed in [`CHANGELOG.md`](CHANGELOG.md) (in Chinese).
 
 ## Live sources
 
@@ -36,7 +36,7 @@ Translation list URL (in the app: Me → Appearance settings → Language → Do
 | 日本語 | `ja` | 1736 | [ja.json](https://gist.githubusercontent.com/NishinoAkii/7ef617aacd2b81be3a337db6ae33cdaa/raw/ja.json) |
 <!-- translations:end -->
 
-The Japanese and Spanish translations are first versions and have not yet been reviewed by native speakers, so corrections are welcome. To add a language, export every string with "Language → Export translation template" in the app, translate the file and submit it to `translations/`. The file format is described in [`doc/translation.md`](https://github.com/NishinoAkii/simple_liveN/blob/main/doc/translation.md) (in Chinese).
+The Japanese and Spanish translations are first versions and have not yet been reviewed by native speakers, so corrections are welcome. To add a language, export every string with "Language → Export translation template" in the app, translate the file and submit it to `translations/`. The file format is described in [`doc/translation.md`](https://github.com/NishinoAkii/simple_live_N/blob/main/doc/translation.md) (in Chinese).
 
 ## Writing a live source
 

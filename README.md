@@ -1,8 +1,8 @@
 简体中文 | [English](README.en.md)
 
-# simple_liveN 直播源与翻译
+# simple_live_N 直播源与翻译
 
-[simple_liveN](https://github.com/NishinoAkii/simple_liveN) 的直播源订阅和界面翻译。一个平台对应一个 `.live.js` 脚本，一种语言对应一个翻译文件，两者更新后都无需重装 App。更新记录见 [`CHANGELOG.md`](CHANGELOG.md)。
+[simple_live_N](https://github.com/NishinoAkii/simple_live_N) 的直播源订阅和界面翻译。一个平台对应一个 `.live.js` 脚本，一种语言对应一个翻译文件，两者更新后都无需重装 App。更新记录见 [`CHANGELOG.md`](CHANGELOG.md)。
 
 ## 直播源
 
@@ -36,7 +36,7 @@ App 内置简体中文、繁体中文和英文。其他语言的翻译文件放�
 | 日本語 | `ja` | 1736 | [ja.json](https://gist.githubusercontent.com/NishinoAkii/7ef617aacd2b81be3a337db6ae33cdaa/raw/ja.json) |
 <!-- translations:end -->
 
-日语和西班牙语翻译是第一版，尚未经过母语者校对，欢迎指正。新增语言时，在 App 的“语言 → 导出翻译模板”中导出全部句子，翻译后提交到 `translations/`。文件格式见 [`doc/translation.md`](https://github.com/NishinoAkii/simple_liveN/blob/main/doc/translation.md)。
+日语和西班牙语翻译是第一版，尚未经过母语者校对，欢迎指正。新增语言时，在 App 的“语言 → 导出翻译模板”中导出全部句子，翻译后提交到 `translations/`。文件格式见 [`doc/translation.md`](https://github.com/NishinoAkii/simple_live_N/blob/main/doc/translation.md)。
 
 ## 编写直播源
 
