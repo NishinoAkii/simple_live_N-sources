@@ -32,8 +32,8 @@ Translation list URL (in the app: Me → Appearance settings → Language → Do
 
 | Language | Code | Translated strings | Download |
 |---|---|---|---|
-| Español | `es` | 1736 | [es.json](https://gist.githubusercontent.com/NishinoAkii/7ef617aacd2b81be3a337db6ae33cdaa/raw/es.json) |
-| 日本語 | `ja` | 1736 | [ja.json](https://gist.githubusercontent.com/NishinoAkii/7ef617aacd2b81be3a337db6ae33cdaa/raw/ja.json) |
+| Español | `es` | 1738 | [es.json](https://gist.githubusercontent.com/NishinoAkii/7ef617aacd2b81be3a337db6ae33cdaa/raw/es.json) |
+| 日本語 | `ja` | 1738 | [ja.json](https://gist.githubusercontent.com/NishinoAkii/7ef617aacd2b81be3a337db6ae33cdaa/raw/ja.json) |
 <!-- translations:end -->
 
 The Japanese and Spanish translations are first versions and have not yet been reviewed by native speakers, so corrections are welcome. To add a language, export every string with "Language → Export translation template" in the app, translate the file and submit it to `translations/`. The file format is described in [`doc/translation.md`](https://github.com/NishinoAkii/simple_live_N/blob/main/doc/translation.md) (in Chinese).
