@@ -32,8 +32,8 @@ App 内置简体中文、繁体中文和英文。其他语言的翻译文件放�
 
 | 语言 | 代码 | 已翻译的句子 | 下载 |
 |---|---|---|---|
-| Español | `es` | 1738 | [es.json](https://gist.githubusercontent.com/NishinoAkii/7ef617aacd2b81be3a337db6ae33cdaa/raw/es.json) |
-| 日本語 | `ja` | 1738 | [ja.json](https://gist.githubusercontent.com/NishinoAkii/7ef617aacd2b81be3a337db6ae33cdaa/raw/ja.json) |
+| Español | `es` | 1754 | [es.json](https://gist.githubusercontent.com/NishinoAkii/7ef617aacd2b81be3a337db6ae33cdaa/raw/es.json) |
+| 日本語 | `ja` | 1754 | [ja.json](https://gist.githubusercontent.com/NishinoAkii/7ef617aacd2b81be3a337db6ae33cdaa/raw/ja.json) |
 <!-- translations:end -->
 
 日语和西班牙语翻译是第一版，尚未经过母语者校对，欢迎指正。新增语言时，在 App 的“语言 → 导出翻译模板”中导出全部句子，翻译后提交到 `translations/`。文件格式见 [`doc/translation.md`](https://github.com/NishinoAkii/simple_live_N/blob/main/doc/translation.md)。
