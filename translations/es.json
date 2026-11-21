@@ -967,7 +967,7 @@
   "正在从 {source} 下载": "Descargando desde {source}",
   "正在校验文件…": "Verificando el archivo…",
   "下载更新": "Descargando la actualización",
-  "自动（测速后选最快的）": "Automática (la más rápida según una prueba de velocidad)",
+  "自动选择": "Automática",
   "自定义镜像前缀": "Prefijo del espejo personalizado",
   "启动时检查更新": "Buscar actualizaciones al iniciar",
   "每天最多一次，有新版本时在 App 里提示": "Como máximo una vez al día; si hay una versión nueva, te avisa en la app",
